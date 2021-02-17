@@ -18,7 +18,8 @@ addUser(formObj){
     console.log(this.userProfileForm.value)
     
     this.api.postVehicle(formObj).subscribe((response)=>
-    console.log("user added"))
+    console.log("user added"));
+  alert("USER ADDED SUCCESSFLLY");
     
     
   }
