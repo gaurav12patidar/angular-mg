@@ -1,0 +1,33 @@
+<table border="3">
+  <tr>
+    <th>Date</th>
+    <th>LogID</th>
+    <th>Time</th>
+    <th>Vehicle Details</th>
+    <th>Status</th>
+    <th>Vehicle Number</th>
+
+  </tr>
+    <tr *ngFor="let x of status" >
+        <td>{{x.date}}</td>
+        <td>{{x.logid}}</td>
+        <td>{{x.time}}</td>
+        <td>{{x.vehicle_details}}</td>
+        <td>{{x.status}}</td>
+        <td>{{x.vehicleno}}</td>
+
+        
+    </tr>
+    <h1>{{message}}</h1>
+    
+  </table>
+  <table class="table table-dark table-striped">
+    
+  </table>
+  <!-- <tr *ngFor="let x of status" >
+    <td>{{x.addressid}}</td>
+    <td>{{x.phoneno}}</td>
+    <td>{{x.username}}</td>
+    <td>{{x.userid}}</td>
+    
+</tr> -->
