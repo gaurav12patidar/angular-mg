@@ -26,7 +26,7 @@ export class VehicleComponent implements OnInit {
   userProfileForm = this.fb.group({
       username: [''],
       address: [''],
-      phone:[''],
+      phoneno:[''],
       vehicle:['']
     });
 }
