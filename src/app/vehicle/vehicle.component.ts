@@ -18,7 +18,8 @@ export class VehicleComponent implements OnInit {
     console.log(this.userProfileForm.value)
     
     this.api.createUser(formObj).subscribe((response)=>
-    console.log("user added"))
+    console.log("user added"));
+    alert("USER ADDED SUCCESSFLLY");
     
     
   }
