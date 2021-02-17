@@ -27,6 +27,6 @@ export class VehicleComponent implements OnInit {
       username: [''],
       address: [''],
       phoneno:[''],
-      vehicleno:['']
+      vehicle:['']
     });
 }
